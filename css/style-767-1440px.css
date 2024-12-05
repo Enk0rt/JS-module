@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) and (max-width: 1440px){
+    .app__input-field{
+        gap: 40px;
+    }
+
+    .app__input-field-label{
+        font-size: 18px;
+    }
+
+    #user-input{
+        padding: 8px;
+    }
+
+    #user-input::placeholder{
+        font-size: 14px;
+    }
+
+    #add{
+        padding: 8px;
+        width: 100px;
+
+        font-size: 14px;
+    }
+
+    .app__storage-list{
+        font-size: 18px;
+    }
+
+    .app__buttons .btn{
+        padding: 8px;
+        width: 100%;
+
+        font-size: 14px;
+    }
+}

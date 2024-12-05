@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Name/Value pair editor</title>
+
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-340px.css">
+    <link rel="stylesheet" href="css/style-340-768px.css">
+    <link rel="stylesheet" href="css/style-767-1440px.css">
+</head>
+<body>
+    <div class="app">
+        <h2 class="app__title" id="title">Test</h2>
+            <p class="app__input-field-label">
+                Name/Value Pair
+            </p>
+        <div class="app__input-field">
+            <input type="text" id="user-input" placeholder="Enter your pair (ex:Name=Value)">
+            <button class="btn" id="add" >Add</button>
+        </div>
+                <p class="app__input-field-label">
+                    Name/Value Pair List
+                </p>
+        <div class="app__storage" >
+                <ul class="app__storage-list" id="storage">
+                </ul>
+                <div class="app__buttons">
+                    <button class="btn" id="name-sort">Sort by Name</button>
+                    <button class="btn" id="value-sort">Sort by Value</button>
+                    <button class="btn" id="delete">Delete</button>
+                </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

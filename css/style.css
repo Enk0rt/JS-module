@@ -1,0 +1,114 @@
+*{
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 1.2
+}
+body {
+    padding: 40px;
+
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    padding: 40px;
+    width: 680px;
+
+    background-color: white;
+    border-radius: 10px 0 10px 10px;
+}
+
+.app__title{
+    margin-bottom: 40px;
+}
+
+.app__input-field{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#user-input{
+    padding: 4px;
+    width: 440px;
+
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+#user-input::placeholder{
+    opacity: .5;
+}
+
+.app__input-field button {
+    margin: 0;
+}
+
+.app__input-field-label{
+    margin-top: 24px;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.btn{
+    padding: 2px 4px;
+    display: block;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(211, 211, 211, 0.53);
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.btn:hover{
+    border: 1px solid black;
+    transition: .3s;
+}
+
+.app__storage{
+    display: flex;
+    gap: 40px;
+}
+
+.app__storage-list{
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 2px;
+}
+
+li{
+    padding: 2px 5px;
+
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.app__buttons .btn:nth-child(2){
+    margin-top: 10px;
+}
+
+.app__buttons .btn:nth-child(3){
+    margin-top: 20px;
+}
+
+#storage{
+    width: 440px;
+    height: 300px;
+
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.chosen{
+    background-color: rgba(100, 149, 237, 0.5);
+}
+
+
+
+

@@ -1,0 +1,10 @@
+/*Styles for extra small devices (i.e iPhone 5)*/
+@media screen and (max-width: 340px) {
+    #storage{
+        min-height: 180px
+    }
+    .btn{
+        padding: 8px;
+        font-size: 10px;
+    }
+}

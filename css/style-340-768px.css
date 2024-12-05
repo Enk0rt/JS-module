@@ -1,0 +1,70 @@
+/*Styles for small devices (smartphones)*/
+@media screen and (max-width:768px) {
+    body{
+        padding: 20px;
+    }
+
+    .app{
+        max-width: 550px;
+        padding: 24px;
+    }
+
+    .app__input-field-label{
+        margin-bottom: 8px;
+    }
+
+    .app__input-field{
+        gap: 20px;
+    }
+
+    .app__input-field{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .app__input-field .btn{
+        width: 100%;
+    }
+
+    #user-input{
+        padding: 8px;
+        width: 100%;
+
+        font-size: 14px;
+    }
+
+    .app__storage{
+        justify-content: space-between;
+    }
+
+    #storage{
+        width: 100%;
+    }
+
+    .app__storage{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .app__buttons{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .app__buttons .btn:nth-child(2){
+        margin-top: 0;
+    }
+
+    .app__buttons .btn:nth-child(3){
+        margin-top:0;
+    }
+
+    .app__storage .btn{
+        padding: 8px;
+    }
+
+    .btn{
+        padding: 8px;
+    }
+}
