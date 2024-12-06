@@ -3,8 +3,16 @@
     #storage{
         min-height: 180px
     }
+
     .btn{
         padding: 8px;
         font-size: 10px;
+    }
+
+    .error{
+        top: -40px;
+        width: 190px;
+
+        font-size: 12px;
     }
 }

@@ -67,4 +67,9 @@
     .btn{
         padding: 8px;
     }
+    .error{
+        top: -40px;
+        font-size: 12px;
+        width: 190px;
+    }
 }

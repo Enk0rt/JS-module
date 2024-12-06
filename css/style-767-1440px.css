@@ -32,4 +32,8 @@
 
         font-size: 14px;
     }
+
+    .error{
+        width: 200px;
+    }
 }

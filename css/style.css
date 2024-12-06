@@ -5,6 +5,8 @@
 body {
     padding: 40px;
 
+    position: relative;
+    overflow: hidden;
     background-color: cornflowerblue;
     display: flex;
     justify-content: center;
@@ -47,7 +49,7 @@ body {
 
 .app__input-field-label{
     margin-top: 24px;
-
+    margin-bottom: 4px;
     color: rgba(0, 0, 0, 0.55);
 }
 
@@ -103,6 +105,60 @@ li{
 
     overflow-y: auto;
     border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/*Стилі для модального вікна з помилкою*/
+.error__container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 80px;
+    right: 0;
+}
+.error{
+    position: relative;
+    right: 0;
+    top: 0;
+
+    padding:10px 20px;
+    width: 300px;
+
+    background-color: rgba(237, 109, 109, 0.99);
+    border-radius: 10px 0 0 10px;
+    animation-name: appear;
+    animation-duration: 1.6s;
+    opacity: 1;
+}
+
+@keyframes appear {
+    from{
+        right: -400px;
+        opacity: 0;
+    }
+    to{
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.fade-out{
+    animation-name: out;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+    right: 0;
+    opacity: 1;
+}
+
+@keyframes out {
+    from{
+        right: 0;
+        opacity: 1;
+    }
+    to{
+        right: -400px;
+        opacity: 0;
+    }
 }
 
 .chosen{
